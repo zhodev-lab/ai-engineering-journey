@@ -1,12 +1,12 @@
 # 🧠 AI Engineering Journey
 
-> 目标：90 天成为具备实战能力的 AI 工程师（从 Python 后端到 LLM 应用）
+> target：training log powered by AI tools and guidance, helping me become an engineer who uses, understands, and commands AI—not one who is replaced by it.
 
 - ⏰ 学习周期：2025-07-30 ~ 2025-10-30
 - 📌 每日任务提交到 GitHub，本仓库用于阶段总结 + 项目记录
-- 🧑‍💻 当前角色：前端工程师，正在转型 AI 工程师
 
 ---
+
 
 ## 🛣️ 路线图概览（阶段目标）
 
@@ -88,7 +88,33 @@
 - 💼 最终目标是拿出可展示项目用于面试 or 简历强化
 
 ---
-
-## 🫶 欢迎你加入
-
-本仓库为个人成长记录用，如果你也在学习 Python + AI 工程，欢迎 fork 或交流 🙌
+```bash
+ai-engineering-journey/
+│
+├── README.md                  ← 主介绍 + 进度追踪
+│
+├── 00-python-basics/          ← Python 基础 + Typing + 工具
+│   └── notes/
+│   └── exercises/
+│
+├── 01-fastapi-backend/        ← FastAPI 项目实践（主线）
+│   ├── day01-hello-fastapi/
+│   ├── day02-crud-api/
+│   └── ...
+│
+├── 02-projects-backend/       ← 后端完整项目（部署、ORM、JWT）
+│   ├── blog-api/
+│   └── task-manager/
+│
+├── 03-llm-fundamentals/       ← 基础 LLM 操作（OpenAI API / LangChain）
+│   └── prompt-playground/
+│
+├── 04-ai-projects/            ← LLM / AI 项目实战（带前后端整合）
+│   ├── rag-doc-qa/
+│   ├── chatbot-ui-api/
+│   └── ...
+│
+└── notes/                     ← 知识总结 & 学习记录
+    ├── backend-architecture.md
+    ├── fastapi-vs-flask.md
+    └── llm-tools-review.md
