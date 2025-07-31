@@ -9,12 +9,12 @@
 
 | Module | Description | Filename |
 |--------|-------------|----------|
-| Data Structures | Lists, dictionaries, sets, tuples | `01_data_structures.py` |
-| Functions & Control Flow | `if`, `for`, `while`, `return` | `02_functions.py` |
-| Classes & Objects | Custom classes, attributes, methods | `03_classes.py` |
-| Comprehensions & Lambda | List/dict/set comprehensions, `lambda` | `04_comprehensions.py` |
-| Modules & Imports | Using standard libraries | `05_modules.py` |
-| File I/O | Reading from and writing to files | `06_file_io.py` |
+| Data Structures | Lists, dictionaries, sets, tuples | [`01_data_structures.py`](./01_data_structures.py) |
+| Functions & Control Flow | `if`, `for`, `while`, `return` | [`02_functions.py`](./02_functions.py) |
+| Classes & Objects | Custom classes, attributes, methods | [`03_classes.py`](./03_classes.py) |
+| Comprehensions & Lambda | List/dict/set comprehensions, `lambda` | [`04_comprehensions.py`](./04_comprehensions.py) |
+| Modules & Imports | Using standard libraries | [`05_modules.py`](./05_modules.py) |
+| File I/O | Reading from and writing to files | [`06_file_io.py`](./06_file_io.py) |
 | Summary Notes | Syntax highlights & reflections | `notes.md` |
 
 ---

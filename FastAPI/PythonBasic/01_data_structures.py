@@ -1,3 +1,5 @@
+# Data Structures | Lists, dictionaries, sets, tuples | `01_data_structures.py` 
+
 # variables
 cost = 10
 txt_percenet = .25
@@ -5,9 +7,9 @@ txt_percenet = .25
 # String formatting
 word = "ABC"
 print(f"{word}")
-# Data Structures | Lists, dictionaries, sets, tuples | `01_data_structures.py` 
 
 Lists = ['apple', 'banana', 'cherry']
+
 tuple(Lists)
 # use list() convert tuple back to list type
 thisList = list(("apple", "banna", "cherry"))
@@ -43,4 +45,29 @@ thislist.clear()
 # thislist -> [];
 
 
-dictionaries 
+# set 
+my_set = {1,2,3,4, 4}
+# {1,2,3,4}
+
+# tuple 
+my_tuple = (1,2,3,4)
+# my_tuple[1] = 100 -> throw error 
+# immutable 
+
+# dictionaries 
+
+# access
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = thisdict["model"]
+x = thisdict.get("model")
+
+dict = {
+    'a': "abc",
+    'x': "xyz"
+}
+print(dict.get('a'))
+print(dict['a'])
