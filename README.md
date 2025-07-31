@@ -1,120 +1,111 @@
 # 🧠 AI Engineering Journey
 
-> target：training log powered by AI tools and guidance, helping me become an engineer who uses, understands, and commands AI—not one who is replaced by it.
+> 🎯 Goal: A training log guided and empowered by AI tools — helping me become an engineer who **uses**, **understands**, and **commands** AI, not one replaced by it.
 
-- ⏰ 学习周期：2025-07-30 ~ 2025-10-30
-- 📌 每日任务提交到 GitHub，本仓库用于阶段总结 + 项目记录
-
----
-
-
-## 🛣️ 路线图概览（阶段目标）
-
-| 阶段        | 时间范围         | 目标说明 |
-|-------------|------------------|----------|
-| 阶段一：Python 后端 | 第 1 - 3 周 | 掌握 Python + FastAPI + 项目结构，完成基本 RESTful API 项目 |
-| 阶段二：LLM 工程基础 | 第 4 - 6 周 | 熟悉 OpenAI / LangChain / Prompt 工程，构建可调用 LLM 的服务 |
-| 阶段三：全栈 AI 项目实战 | 第 7 - 9 周 | 将前端、后端、AI 整合，完成 RAG / Chatbot / AI 工具类应用 |
+- ⏰ Timeline: July 30, 2025 – October 30, 2025  
+- 📌 Daily commits pushed to GitHub — this repo records weekly summaries and key projects
 
 ---
 
-## 📅 每周任务计划
+## 🛣️ Roadmap Overview
 
-### 📖 Week 1：Python 基础 + FastAPI 初识
-- 🎯 目标：掌握 Python 基础语法、类型提示、FastAPI 路由机制、请求响应模型
-
-| 日期 | 任务内容 | 分类 | 状态 | 提交链接 |
-|------|----------|------|------|----------|
-| 7/30 | Python 基本语法（函数、类、类型提示）复习 | Python | ✅ | [link]() |
-| 7/31 | 安装 FastAPI + 第一个 GET 接口 | FastAPI | ✅ | [link]() |
-| 8/01 | FastAPI Path + Query + Body 参数解析 | FastAPI | ⏳ | |
-| 8/02 | 构建带路由分离的 API 结构 | FastAPI | ⏳ | |
-| 8/03 | Pydantic 模型基础、响应模型校验 | FastAPI | ⏳ | |
-| 8/04 | 项目 Day：构建 mini-task manager 项目（增删改查） | 项目 | ⏳ | |
-| 8/05 | 学习总结 + 完善 README + 单元测试编写 | 整理 | ⏳ | |
+| Phase                      | Duration         | Objective |
+|---------------------------|------------------|-----------|
+| Phase 1: Python Backend   | Weeks 1 - 3      | Master Python, FastAPI, and project architecture. Build a basic RESTful API project. |
+| Phase 2: LLM Engineering  | Weeks 4 - 6      | Learn OpenAI, LangChain, prompt engineering. Build services that interact with LLMs. |
+| Phase 3: Fullstack AI     | Weeks 7 - 9      | Combine frontend, backend, and AI to build RAG/chatbot/AI tool applications. |
 
 ---
 
-### 🧱 Week 2：项目结构 + 部署 + 安全机制
-- 🎯 目标：掌握项目分层结构、数据库集成（SQLite / PostgreSQL）、JWT 登录流程
+## 📅 Weekly Learning Plan
 
-| 日期 | 任务内容 | 分类 | 状态 | 提交链接 |
-|------|----------|------|------|----------|
-| 8/06 | 数据库基础 + SQLModel/SQLAlchemy 初识 | FastAPI | ⏳ | |
-| 8/07 | 集成 SQLite + 增加数据持久化 | 项目 | ⏳ | |
-| 8/08 | 用户注册 + 登录（密码哈希） | 安全 | ⏳ | |
-| 8/09 | JWT 认证中间件 + 用户鉴权接口 | 安全 | ⏳ | |
-| 8/10 | 前后端联调测试（可用 postman / curl） | 项目 | ⏳ | |
-| 8/11 | 使用 uvicorn + gunicorn 部署 FastAPI 到 render/vercel | DevOps | ⏳ | |
-| 8/12 | Week 2 总结 + 项目文档书写 | 整理 | ⏳ | |
+### 📖 Week 1: Python Fundamentals + Intro to FastAPI
+- 🎯 Goal: Review Python syntax, type hints, FastAPI routing, and request/response models
 
----
-
-## 🧠 项目列表
-
-| 项目名 | 简介 | 状态 | 路径 |
-|--------|------|------|------|
-| `task-manager-api` | 使用 FastAPI 构建的任务管理系统 | 🛠️ 开发中 | [`02-projects-backend/task-manager/`](./02-projects-backend/task-manager/) |
-| `chatbot-ui-api` | ChatGPT 风格 AI 聊天项目（前后端分离） | 待开发 | - |
-| `rag-doc-qa` | 文档问答系统（PDF/RAG/LLM） | 待开发 | - |
+| Date  | Task Description                            | Category  | Status | Link |
+|-------|---------------------------------------------|-----------|--------|------|
+| 7/30  | Python review: functions, classes, typing   | Python    | ✅      | [Python](./PythonBasic/README.md) |
+| 7/31  | Install FastAPI & create first GET endpoint | FastAPI   | ⏳      | [FastAPI](./FastAPI/README.md) |
+| 8/01  | FastAPI path/query/body params              | FastAPI   | ⏳      |       |
+| 8/02  | Modular routing structure for APIs          | FastAPI   | ⏳      |       |
+| 8/03  | Pydantic models and response validation     | FastAPI   | ⏳      |       |
+| 8/04  | Project Day: mini task manager (CRUD)       | Project   | ⏳      |       |
+| 8/05  | Summary + README cleanup + unit tests       | Review    | ⏳      |       |
 
 ---
 
-## 📝 笔记（持续更新）
+### 🧱 Week 2: Project Structure, Deployment, Security
 
-| 标题 | 内容概览 | 链接 |
-|------|----------|------|
-| FastAPI vs Flask | 各自适用场景和优劣对比 | [笔记](./notes/fastapi-vs-flask.md) |
-| LLM 工程常见工具对比 | LangChain vs Haystack 等 | [笔记](./notes/llm-tools-review.md) |
-| 后端项目结构设计 | 常用目录结构、依赖管理等 | [笔记](./notes/backend-architecture.md) |
+- 🎯 Goal: Understand backend architecture, integrate a database, and implement JWT authentication
 
----
-
-## 📦 提交规范
-
-- ✅ 每日提交 1 次，使用 Git 分支命名 `daily/YYYY-MM-DD`
-- ✅ Commit Message 示例：
-  - `feat: 完成 FastAPI 路由练习`
-  - `refactor: 优化 API 参数验证逻辑`
-  - `docs: 补充 README 结构规划说明`
-- ✅ 建议每周一个 tag（如：`v1-week-1`）
+| Date  | Task Description                                 | Category | Status | Link |
+|-------|--------------------------------------------------|----------|--------|------|
+| 8/06  | SQLModel / SQLAlchemy intro                      | FastAPI  | ⏳      |      |
+| 8/07  | SQLite integration with persistence layer        | Project  | ⏳      |      |
+| 8/08  | User registration + login (hashed passwords)     | Auth     | ⏳      |      |
+| 8/09  | JWT middleware + route protection                | Auth     | ⏳      |      |
+| 8/10  | API testing with Postman / curl                  | Project  | ⏳      |      |
+| 8/11  | Deploy FastAPI with gunicorn + render/vercel     | DevOps   | ⏳      |      |
+| 8/12  | Week 2 Recap + write project docs                | Review   | ⏳      |      |
 
 ---
 
-## 🧑‍💻 面向未来
+## 🧠 Projects
 
-- 📈 第 4 - 6 周开始结合 LLM API，训练 Prompt、做文本增强任务
-- 🧩 第 7 - 9 周将结合前端能力构建完整 AI 产品 MVP
-- 💼 最终目标是拿出可展示项目用于面试 or 简历强化
+| Project Name         | Description                                      | Status     | Path |
+|----------------------|--------------------------------------------------|------------|------|
+| `task-manager-api`   | Task manager built with FastAPI (CRUD)           | 🛠️ Building | [`02-projects-backend/task-manager/`](./02-projects-backend/task-manager/) |
+| `chatbot-ui-api`     | ChatGPT-style AI chatbot (frontend + backend)    | Planned    | -    |
+| `rag-doc-qa`         | Document Q&A system (PDF + RAG + LLM)            | Planned    | -    |
 
 ---
+
+## 📝 Notes (Continuously Updated)
+
+| Topic                    | Summary                                  | Link |
+|--------------------------|------------------------------------------|------|
+| FastAPI vs Flask         | Use cases and differences                 | [Notes](./notes/fastapi-vs-flask.md) |
+| LLM Engineering Tools    | LangChain, Haystack, and comparisons      | [Notes](./notes/llm-tools-review.md) |
+| Backend Architecture     | Structure, dependency management          | [Notes](./notes/backend-architecture.md) |
+
+---
+
+## 📦 Commit Workflow
+
+- ✅ Daily commit using branch naming format `daily/YYYY-MM-DD`
+- ✅ Commit message examples:
+  - `feat: add FastAPI route for GET /users`
+  - `refactor: improve API validation with Pydantic`
+  - `docs: update README with roadmap`
+- ✅ Tag weekly milestones (e.g. `v1-week-1`)
+
+---
+
+## 🧑‍💻 Looking Ahead
+
+- 📈 Weeks 4–6: Integrate OpenAI API, explore prompt design and LLM-based tasks
+- 🧩 Weeks 7–9: Build fullstack AI MVPs integrating backend, LLM, and UI
+- 💼 Final deliverables: portfolio-ready projects for resumes and interviews
+
+---
+
 ```bash
 ai-engineering-journey/
 │
-├── README.md                  ← 主介绍 + 进度追踪
+├── README.md                  ← Overview + progress tracker
 │
-├── 00-python-basics/          ← Python 基础 + Typing + 工具
+├── 00-python-basics/          ← Python fundamentals + typing + tools
 │   └── notes/
 │   └── exercises/
 │
-├── 01-fastapi-backend/        ← FastAPI 项目实践（主线）
+├── 01-fastapi-backend/        ← FastAPI projects (core backend track)
 │   ├── day01-hello-fastapi/
 │   ├── day02-crud-api/
 │   └── ...
 │
-├── 02-projects-backend/       ← 后端完整项目（部署、ORM、JWT）
+├── 02-projects-backend/       ← Full backend apps (ORM, JWT, deploy)
 │   ├── blog-api/
 │   └── task-manager/
 │
-├── 03-llm-fundamentals/       ← 基础 LLM 操作（OpenAI API / LangChain）
-│   └── prompt-playground/
-│
-├── 04-ai-projects/            ← LLM / AI 项目实战（带前后端整合）
-│   ├── rag-doc-qa/
-│   ├── chatbot-ui-api/
-│   └── ...
-│
-└── notes/                     ← 知识总结 & 学习记录
-    ├── backend-architecture.md
-    ├── fastapi-vs-flask.md
-    └── llm-tools-review.md
+├── 03-llm-fundamentals/       ← LLM playground (OpenAI, LangChain)
+│   └── prompt-pl
