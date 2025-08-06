@@ -25,12 +25,12 @@
 | Date  | Task Description                            | Category  | Status | Link |
 |-------|---------------------------------------------|-----------|--------|------|
 | 7/30  | Python review: functions, classes, typing   | Python    | ✅      | [Python](./PythonBasic/README.md) |
-| 7/31  | Install FastAPI & create first GET endpoint | FastAPI   | ⏳      | [FastAPI](./FastAPI/README.md) |
-| 8/01  | FastAPI path/query/body params              | FastAPI   | ⏳      |       |
-| 8/02  | Modular routing structure for APIs          | FastAPI   | ⏳      |       |
-| 8/03  | Pydantic models and response validation     | FastAPI   | ⏳      |       |
-| 8/04  | Project Day: mini task manager (CRUD)       | Project   | ⏳      |       |
-| 8/05  | Summary + README cleanup + unit tests       | Review    | ⏳      |       |
+| 8/05  | Install FastAPI & create first GET endpoint | FastAPI   | ⏳      | [FastAPI](./FastAPI/README.md) |
+| 8/06  | FastAPI path/query/body params              | FastAPI   | ⏳      |       |
+| 8/07  | Modular routing structure for APIs          | FastAPI   | ⏳      |       |
+| 8/08  | Pydantic models and response validation     | FastAPI   | ⏳      |       |
+| 8/09  | Project Day: mini task manager (CRUD)       | Project   | ⏳      |       |
+| 8/10  | Summary + README cleanup + unit tests       | Review    | ⏳      |       |
 
 ---
 
